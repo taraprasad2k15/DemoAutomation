@@ -10,7 +10,7 @@ import { join } from 'path';
 
 export class SfAccountLogACallSpec extends BaseSpec {
 	public runTest() {
-		const debug: boolean = false;
+		const debug: boolean = true;
 		const connectionName = 'Regmain';
 		let remoteWebdriver: WebDriver;
 		const pageStructureInfoQA: any[] = [SfAccountLogACall.logACallPSI];
